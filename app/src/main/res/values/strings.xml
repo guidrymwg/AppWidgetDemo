@@ -9,9 +9,9 @@
     <string name="ok_text">OK</string>
     <string name="cancel_text">Cancel</string>
 	<string name="widget_describe">App widget demonstration. Close this main activity and
-	long-press on an open region
-	of the homescreen. In the resulting menu, select <b>Widgets</b> and in the resulting menu
-	(which may take a few seconds to load), select <b>App Widget Demo</b>. This will open a configuration
+	open the widgets list (depending on the device, this usually involves a long-press on an
+		open part of the homescreen or accessing the widgets category in the app drawer).
+	In the resulting menu, select <b>App Widget Demo</b>. This will open a configuration
 	window. Fill out the information and click OK to place the corresponding instance of the
 	AppWidgetDemo on the homescreen. Multiple instances may be placed in this manner, each
 	configured separately.
