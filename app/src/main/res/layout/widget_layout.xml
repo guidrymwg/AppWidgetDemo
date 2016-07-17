@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/frame"
+    android:minHeight="60dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop = "14dp"
+        android:paddingLeft = "20dp"
+        android:layout_weight = "90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/widget_title"
+            android:textColor="#ff333333"
+            android:background="#00339933"
+            android:padding="0dp"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/widget_title">
+        </TextView>
+        <TextView
+            android:id="@+id/widget_text"
+            android:textColor="#cc0d77b5"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:background="#00ffffdd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight = "10"
+        android:gravity="top|right"
+        android:background="#00339933"
+        android:paddingRight="18dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/update_blue_small">
+    </ImageView>
+</LinearLayout>

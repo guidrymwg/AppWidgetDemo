@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">AppWidgetDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">AppWidgetDemo</string>
+    <string name="widget_title">App Widget Demo</string>
+    <string name="request_update">Request update</string>
+    <string name="event_name_hint">(Event: 24 chars max)</string>
+    <string name="unitsPrompt">Time units</string>
+    <string name="ok_text">OK</string>
+    <string name="cancel_text">Cancel</string>
+	<string name="widget_describe">App widget demonstration. Close this main activity and
+	long-press on an open region
+	of the homescreen. In the resulting menu, select <b>Widgets</b> and in the resulting menu
+	(which may take a few seconds to load), select <b>App Widget Demo</b>. This will open a configuration
+	window. Fill out the information and click OK to place the corresponding instance of the
+	AppWidgetDemo on the homescreen. Multiple instances may be placed in this manner, each
+	configured separately.
+
+	\n\nThe button below will update any current instances of AppWidgetDemo  (they
+	will be regularly updated by the system but this will force an
+	immediate update). There is also a button on each AppWidgetDemo instance that will force an
+	update for all instances, and pressing on the body of an AppWidgetDemo will open this screen. \n </string>
+
 </resources>

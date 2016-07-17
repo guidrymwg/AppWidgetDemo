@@ -7,10 +7,27 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.lightcone.appwidgetdemo.MainActivity">
+    tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/widget_describe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/widget_describe"
+        android:textColor="#ff000000"
+        android:textSize="13.5sp"
+        android:textStyle="normal" >
+    </TextView>
+
+    <Button
+        android:id="@+id/update_request"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignLeft="@+id/widget_describe"
+        android:layout_below="@+id/widget_describe"
+        android:layout_marginTop="5dp"
+        android:onClick="requestUpdate"
+        android:text="@string/request_update" />
+
 </RelativeLayout>
